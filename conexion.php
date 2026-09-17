@@ -11,5 +11,5 @@ if ($conexion->connect_error) {
     die("Error de conexion: " . $conexion->connect_error);
 }
 
-echo "Conexion " . $basedatos;
+echo "Conexion php 2026 " . $basedatos;
 $conexion->close();
